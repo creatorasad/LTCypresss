@@ -1,0 +1,47 @@
+{
+   "lambdatest_auth": {
+      "username": "7st60cx9us",
+      "access_key": "RcD71OM0BWmgWLBUvrZ4O1Dcca1U1gKSjs1gojX11lfQo5haNj"
+   },
+   "browsers": [
+     {
+        "browser": "chrome",
+        "platform": "Windows 8.1",
+        "versions": [
+           "90.0"
+        ]
+     },
+     {
+        "browser": "chrome",
+        "platform": "Windows 8.1",
+        "versions": [
+         "90.0"
+        ]
+     },
+
+     {
+        "browser": "chrome",
+        "platform": "Windows 8.1",
+        "versions": [
+         "90.0"
+        ]
+     }
+  ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "random1",
+      "parallels": 100,
+      "fixed_ip": "",
+      "specs": "cypress/integration/examples/cura.spec.js",
+      "ignore_files": "allure-results/**/*",
+      "feature_file_suppport": false,
+      "network": true,
+      "experimentalSessionSupport": true
+
+
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}

@@ -1,0 +1,9 @@
+{
+    "env": {
+        "issuePrefix": "https://your.domain.atlassian.net/browse/",
+        "tmsPrefix": "https://some.testrail.instance/path/suite/caseID-",
+        "allure": true,
+		"allureResultsPath": "cypress/results/allure-results",
+        "baseUrl": "https://accounts.lambdatest.com/login"
+    }
+}
